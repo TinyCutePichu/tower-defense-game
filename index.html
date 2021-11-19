@@ -24,8 +24,8 @@
 		var containerDiv = document.getElementById('containerDiv');
 		var element = document.getElementById('gameContainer');      // the element
 		
-		var widthLimitedScale = Math.floor( containerDiv.offsetWidth ) / 1024.0;
-		var heightLimitedScale = (Math.floor( window.innerHeight ) - 50) / 768.0;
+		var widthLimitedScale = Math.floor( containerDiv.offsetWidth ) / 1280.0;
+		var heightLimitedScale = (Math.floor( window.innerHeight ) - 50) / 720.0;
 		
 		var scale = widthLimitedScale;
 		if (heightLimitedScale < scale) scale = heightLimitedScale;
